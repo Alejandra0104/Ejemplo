@@ -1,14 +1,14 @@
 public class objFastFood 
 {
-    private String tipo;
-    private String tam;
-    private String descripcion;
-    private int vr;
+    private int tipo;
+    private int tam;
+    private int descripcion;
+    private double vr;
     private boolean servicio;
 
     public objFastFood() { }
 
-    public objFastFood(String tipo, String tam, String descripcion, int vr, boolean servicio) 
+    public objFastFood(int tipo, int tam, int descripcion, double vr, boolean servicio) 
     {
         this.tipo = tipo;
         this.tam = tam;
@@ -17,35 +17,35 @@ public class objFastFood
         this.servicio = servicio;
     }
 
-    public String getTipo() {
+    public int getTipo() {
         return tipo;
     }
 
-    public void setTipo(String tipo) {
+    public void setTipo(int tipo) {
         this.tipo = tipo;
     }
 
-    public String getTam() {
+    public int getTam() {
         return tam;
     }
 
-    public void setTam(String tam) {
+    public void setTam(int tam) {
         this.tam = tam;
     }
 
-    public String getDescripcion() {
+    public int getDescripcion() {
         return descripcion;
     }
 
-    public void setDescripcion(String descripcion) {
+    public void setDescripcion(int descripcion) {
         this.descripcion = descripcion;
     }
 
-    public int getVr() {
+    public double getVr() {
         return vr;
     }
 
-    public void setVr(int vr) {
+    public void setVr(double vr) {
         this.vr = vr;
     }
 

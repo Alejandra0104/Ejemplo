@@ -4,10 +4,10 @@ public class Metodos
 {
     Scanner sc = new Scanner(System.in);
 
-    public objFastFood[][] ingresarVentas (objFastFood[][] v)
+    public objFastFood[][] ingresarVentas (objFastFood[][] m)
     {
-        for(int i = 0; i < v.length; i++){
-            for(int j = 0; j < v.length; j++){
+        for(int i = 0; i < m.length; i++){
+            for(int j = 0; j < m.length; j++){
                 //elobjeto se crea adentro para que cada vez que se ejecute el renueve la informacion (encapsulación)
                 objFastFood obj = new objFastFood();
                 System.out.println("ingrese tipo de comida");
@@ -28,11 +28,12 @@ public class Metodos
                  obj.setDescripcion("perrito caliente muy bueno del estadio con carne");
 
                 } else if (obj.getTipo() ==2) {
-                   obj.setDescripcion("Hamburguesita lo mas de rica")   
+                   obj.setDescripcion("Hamburguesita lo mas de rica"); 
                 }
 
 
             }
         }
     }
+}
     
